@@ -1,0 +1,11 @@
+.gridConteiner {
+    margin-bottom: 30px;
+    width: 1410px;
+    height: 740px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
