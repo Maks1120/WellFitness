@@ -1,0 +1,142 @@
+.list-of-fitness-products__h2 {
+    position: static;
+    width: 369px;
+    height: 33px;
+    left: 0px;
+    top: 0px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 110%;
+
+    color: #1A1A25;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 30px 0px;
+}
+
+.list-of-fitness-products__h3 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 120%;
+    color: #1A1A25;
+    
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin: 0px 10px;
+    padding: 30px 30px;
+}
+
+.list-of-fitness-products__product-1 .list-of-fitness-products__h3 {
+    font-family: 'Inter', sans-serif;   
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 120%;
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin: 0px 10px;
+    padding: 33px 28.77px;
+}
+
+.list-of-fitness-products__product-1 {
+    opacity: 90%;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: -1;
+    background-color: #0D1012;
+    background-image: url(./image/simuliatorsforhome/RunRoad.png);
+}
+
+.list-of-fitness-products__product-2 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: -1;
+    background-image: url(/image/simuliatorsforhome/ElipsSimulators.png);
+}
+
+.list-of-fitness-products__product-3 {
+    grid-column-start: 3;
+    background-image: url(/image/simuliatorsforhome/Cuclingsimuliators.png);
+}
+
+.list-of-fitness-products__product-4 {
+    grid-column-start: 3;
+    background-image: url(/image/simuliatorsforhome/poersimmulitors.png);
+}
+
+.list-of-fitness-products__product-5 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 4;
+    background-image: url(/image/simuliatorsforhome/skySimmuliators.png);
+}
+
+.list-of-fitness-products__product-6 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 4;
+    background-image: url(/image/simuliatorsforhome/greblia.png);
+}
+
+.list-of-fitness-products__product-7 {
+    grid-column-start: 1;
+    grid-row-start: -1;
+    grid-row-end: -2;
+    background-image: url(/image/simuliatorsforhome/Batut.png);
+}
+
+.list-of-fitness-products__product-8 {
+    grid-row-start: -1;
+    grid-row-end: -2;
+    grid-column-start: 2;
+    background-image: url(/image/simuliatorsforhome/GameTAble.png);
+}
+
+.list-of-fitness-products__product-9 {
+    grid-row-start: -1;
+    grid-row-end: -2;
+    grid-column-start: 3;
+    background-image: url(/image/simuliatorsforhome/kreslo.png);
+}
+
+.list-of-fitness-products__product-10 {
+    grid-row-start: -1;
+    grid-row-end: -2;
+    grid-column-start: 4;
+    background-image: url(/image/simuliatorsforhome/akses.png);
+}
+
+.list-of-fitness-products__button-all-category {
+    padding: 12px, 20px, 13px, 20px;
+    width: 142px;
+    height: 42px;
+    border: 1px solid #F53B49;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.list-of-fitness-products__button-all-category__h3{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    width: 102px;
+    height: 17px;
+    color: #F53B49;
+    text-align: center;    
+}
