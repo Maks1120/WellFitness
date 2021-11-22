@@ -1,0 +1,29 @@
+@media screen and (max-width: 960px) {
+    .long-box-1 {
+        width: 460px;
+        height: 190px;
+        border-radius: 4.00213px;
+    }
+    .long-box-1 h3 {
+        font-size: 13px;
+        margin: 0px 6.67361px;
+        padding: 20.2px 20.2px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    h3 {
+        margin: 0px 6.67361px;
+        padding: 20.2px 20.2px;
+
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .box-2, .box-3, .box-4, 
+    .box-5, .box-6, .box-7 {
+        width: 220px;
+        height: 190px;
+        border-radius: 4.00213px;
+    }
+}
