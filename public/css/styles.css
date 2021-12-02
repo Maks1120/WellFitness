@@ -1,0 +1,165 @@
+a {
+  text-decoration: none; }
+
+h3 {
+  text-decoration: none; }
+
+.listOfProductsItem__text {
+  position: static;
+  width: 369px;
+  height: 33px;
+  left: 0px;
+  top: 0px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 110%;
+  color: #1A1A25;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 30px 0px; }
+
+.btnAllItems {
+  padding: 12px, 20px, 13px, 20px;
+  width: 142px;
+  height: 42px;
+  border: 1px solid #F53B49;
+  box-sizing: border-box;
+  border-radius: 4px; }
+
+.btnAllItems__p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  width: 102px;
+  height: 17px;
+  color: #F53B49;
+  text-align: center; }
+
+.gridConteiner-elemFirst {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: -1; }
+
+.gridConteiner-elemSecond {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: -1; }
+
+.gridConteiner-elemThird {
+  grid-column-start: 3; }
+
+.gridConteiner-elemFourth {
+  grid-column-start: 3; }
+
+.gridConteiner-elemFifth {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 4; }
+
+.gridConteiner-elemSixth {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 4; }
+
+.gridConteiner-elemSeventh {
+  grid-column-start: 1;
+  grid-row-start: -1;
+  grid-row-end: -2; }
+
+.gridConteiner-elemEighth {
+  grid-row-start: -1;
+  grid-row-end: -2;
+  grid-column-start: 2; }
+
+.gridConteiner-elemNinth {
+  grid-row-start: -1;
+  grid-row-end: -2;
+  grid-column-start: 3; }
+
+.gridConteiner-elemTenth {
+  grid-row-start: -1;
+  grid-row-end: -2;
+  grid-column-start: 4; }
+
+.gridConteiner {
+  margin-bottom: 30px;
+  width: 1410px;
+  height: 740px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-gap: 30px;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr; }
+
+.productItem-imgHomeFitFirst {
+  background-image: url(/src/image/forHomeFit/RunRoad.png); }
+
+.productItem-imgHomeFitSecond {
+  background-image: url(/src/image/forHomeFit/ElipsSimulators.png); }
+
+.productItem-imgHomeFitThird {
+  background-image: url(/src/image/forHomeFit/Cuclingsimuliators.png); }
+
+.productItem-imgHomeFitFourth {
+  background-image: url(/src/image/forHomeFit/poersimmulitors.png); }
+
+.productItem-imgHomeFitFifth {
+  background-image: url(/src/image/forHomeFit/skySimmuliators.png); }
+
+.productItem-imgHomeFitSixth {
+  background-image: url(/src/image/forHomeFit/greblia.png); }
+
+.productItem-imgHomeFitSeventh {
+  background-image: url(/src/image/forHomeFit/Batut.png); }
+
+.productItem-imgHomeFitEighth {
+  background-image: url(/src/image/forHomeFit/GameTAble.png); }
+
+.productItem-imgHomeFitNinth {
+  background-image: url(/src/image/forHomeFit/kreslo.png); }
+
+.productItem-imgHomeFitTenth {
+  background-image: url(/src/image/forHomeFit/akses.png); }
+
+.productItem-imgDarKBackGround {
+  opacity: 90%;
+  background-color: #0D1012; }
+
+.productItem {
+  margin: 0 auto;
+  background-position: right;
+  background-repeat: no-repeat;
+  width: 330px;
+  height: 280px;
+  background-color: #F0F1F7;
+  border-radius: 6px; }
+
+.productItem-small {
+  height: 200px; }
+
+.productItem-tall {
+  height: 430px; }
+
+.productItem__p {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 120%;
+  color: #1A1A25;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  margin: 0px 10px;
+  padding: 30px 30px; }
+
+.productItem__p-whiteText {
+  color: #FFFFFF; }
