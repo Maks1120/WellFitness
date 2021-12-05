@@ -1,0 +1,29 @@
+<header class="header-wrapper">
+  <div class="header">
+    <%- include("src/components/logo/logo.ejs")%>
+
+      <div class="info-wrapper">
+        <%- include("src/components/dropdown__item/dropdown__item.ejs")%>
+        <div class="dealership">
+          <span class="dealership__info">Для дилеров</span>
+          <button class="dealership__btn">Become a Partner</button>
+        </div>
+        <div class="call-request">
+          <div class="dropdown">
+            <span class="phone-number">+7 (800) 000-00-00</span>
+            <button class="dropdown__default">МСК</button>
+            <div class="dropdown__items">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div>
+          <button class="call-request__btn">Заказать звонок</button>
+        </div>
+        <div class="personal-account">
+          <button class="personal-account__btn">Войти</button>
+          <a href="#" class="personal-account__icon"></a>
+        </div>
+      </div>
+  </div>
+</header>

@@ -1,0 +1,118 @@
+
+* {
+    box-sizing: border-box;
+ }
+ 
+ body {
+    font-family: "Roboto", sans-serif;
+ }
+ 
+ .clearfix{
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+ }
+ 
+ /*Start MAIN PAGE*/
+/*Start Header*/
+.header-wrapper{
+    background-color: #000;
+ }
+
+ .header{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 25px 15px 30px 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+ 
+
+ 
+ .info-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+ }
+ 
+ .dealership{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 30px;
+ }
+ 
+ .dealership__info{
+    color: #909CB5;
+    font-size: 14px;
+    line-height: 140%;
+    margin-right: 30px;
+    margin-left: 30px;
+ }
+ 
+ .dealership__btn{
+    color: #F7F7F7;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    background-color: #384255;
+    border-radius: 6px;
+    border: none;
+    padding: 10px;
+ }
+ 
+ .call-request{
+    display: flex;
+    flex-direction: row;
+ }
+ 
+ .phone-number{
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 17px;
+ }
+ 
+ .call-request__btn{
+    font-size: 14px;
+    line-height: 140%;
+    cursor: pointer;
+    color: #F53B49;
+    margin: 0 30px 0 26px;
+    background: none;
+    border: none;
+ }
+ 
+ .personal-account{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+ }
+ 
+ .personal-account__btn{
+    background: none;
+    border: none;
+    font-size: 14px;
+    line-height: 140%;
+    color: #FFFFFF;
+    margin-right: 7px;
+ }
+ 
+ .personal-account__icon{
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url("../../../public/img/PA_icon.png") no-repeat;
+ }
+ /*End Header*/
+ 
+ /*End Main*/
+ /*End MAIN PAGE*/
