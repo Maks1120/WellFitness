@@ -1,0 +1,22 @@
+<div class="flexConteinerPopularBrand">
+    <% [
+    {title:'Беговые дорожки',
+    className:''
+    },{title:'Эллиптические тренажеры',
+    className:''
+    },{title:'Велотренажеры',
+    className:''
+    },{title:'Силовые тренажеры',
+    className:''
+    },{title:'Батуты',
+    className:''
+    },{title:'Игровые столы',
+    className:''
+    },
+    ].forEach((item,index) => {%>
+        <%- include("src/components/link/link.ejs", {
+            title:item.title,
+            className:item.className
+        }) %>
+    <% });%> 
+</div>

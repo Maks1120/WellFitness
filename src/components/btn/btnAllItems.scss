@@ -20,3 +20,14 @@
     color: #F53B49;
     text-align: center; 
 }
+.btnAllBrands {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px, 20px, 13px, 20px;
+    width: 125px;
+    height: 42px;
+    border: 1px solid #F53B49;
+    box-sizing: border-box;
+    border-radius: 4px;
+}

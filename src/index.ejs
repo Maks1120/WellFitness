@@ -8,9 +8,12 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
     <%- include("src/components/listOfProductsItem/listOfProductsItemHomeFit.ejs", {
-        title: 'Тренажеры для дома'
+    title: 'Тренажеры для дома'
     }) %>
     <%- include("src/components/listOfProductsItem/listOfProductsItemFitnesClub.ejs", {
-        title: 'Для фитнес клубов'
-    }) %>    
+    title: 'Для фитнес клубов'
+    }) %>
+    <%- include("src/components/listOfProductsItem/listOfPopularBrand.ejs", {
+    title: 'Популярные бренды'
+    }) %>
 </html>
