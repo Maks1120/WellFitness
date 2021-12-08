@@ -16,9 +16,6 @@ p {
   font-size: 30px;
   line-height: 110%;
   color: #1A1A25;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
   margin: 30px 0px; }
 
 .listOfProductsItem {
@@ -26,7 +23,7 @@ p {
   margin-right: auto;
   margin-left: auto; }
 
-.btnAllItems {
+.btn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -37,7 +34,7 @@ p {
   box-sizing: border-box;
   border-radius: 4px; }
 
-.btnAllItems__p {
+.btn__p {
   font-family: Inter;
   font-style: normal;
   font-weight: bold;
@@ -48,16 +45,8 @@ p {
   color: #F53B49;
   text-align: center; }
 
-.btnAllBrands {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 12px, 20px, 13px, 20px;
-  width: 125px;
-  height: 42px;
-  border: 1px solid #F53B49;
-  box-sizing: border-box;
-  border-radius: 4px; }
+.btnSmall {
+  width: 125px; }
 
 .gridConteinerFitnesClub-elemFirst {
   grid-area: 1 / 1 / 2 / 3; }
@@ -300,16 +289,22 @@ p {
   margin: 0 auto;
   background-position: right;
   background-repeat: no-repeat;
-  background-color: #F0F1F7;
+  background-color: #ffffff;
   border-radius: 6px; }
 
 .brandBox_firstLine {
   height: 170px; }
 
+.flexConteiner {
+  display: flex; }
+
 .flexConteinerPopularBrand {
-  display: flex;
   margin-top: 30px;
   margin-bottom: 30px; }
+
+.flexConteinerNewsBlog {
+  width: 1695px;
+  height: 440px; }
 
 .gridBrandBox-elemFirst {
   grid-area: 1 / 1 / 2 / 2; }
@@ -411,3 +406,24 @@ p {
 
 .gridBrandBox-elemFifteenth {
   grid-area: 3 / 5 / 4 / 6; }
+
+.newsItem-imgFirst {
+  background-image: url(/src/image/forNewsBlog/beg.png); }
+
+.newsItem-imgSecond {
+  background-image: url(/src/image/forNewsBlog/podtagivania.png); }
+
+.newsItem-imgThird {
+  background-image: url(/src/image/forNewsBlog/dorozka.png); }
+
+.newsItem-imgFoutr {
+  background-image: url(/src/image/forNewsBlog/tagabloca.png); }
+
+.newsItem {
+  display: flex;
+  width: 315px;
+  height: 440px;
+  border-radius: 6px; }
+
+.newsItem-imgDiv {
+  height: 260px; }
