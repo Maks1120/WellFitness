@@ -2,7 +2,8 @@
   box-sizing: border-box; }
 
 body {
-  font-family: "Roboto", sans-serif; }
+  font-family: "Roboto", sans-serif;
+  margin: 0; }
 
 .clearfix {
   visibility: hidden;
@@ -12,7 +13,6 @@ body {
   clear: both;
   height: 0; }
 
-/*Start MAIN PAGE*/
 /*Start Header*/
 .header-wrapper {
   background-color: #000; }
@@ -38,14 +38,14 @@ body {
   margin-right: 30px; }
 
 .dealership__info {
-  color: #909CB5;
+  color: #909cb5;
   font-size: 14px;
   line-height: 140%;
   margin-right: 30px;
   margin-left: 30px; }
 
 .dealership__btn {
-  color: #F7F7F7;
+  color: #f7f7f7;
   cursor: pointer;
   font-weight: bold;
   font-size: 14px;
@@ -69,7 +69,7 @@ body {
   font-size: 14px;
   line-height: 140%;
   cursor: pointer;
-  color: #F53B49;
+  color: #f53b49;
   margin: 0 30px 0 26px;
   background: none;
   border: none; }
@@ -85,7 +85,7 @@ body {
   border: none;
   font-size: 14px;
   line-height: 140%;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-right: 7px; }
 
 .personal-account__icon {
@@ -95,8 +95,6 @@ body {
   background: url("../../../public/img/PA_icon.png") no-repeat; }
 
 /*End Header*/
-/*End Main*/
-/*End MAIN PAGE*/
 .logo-wrapper {
   min-width: 382px;
   display: flex;
@@ -427,3 +425,195 @@ body {
   top: 50%;
   left: 30px;
   transform: translate(-50%, -50%); }
+
+.footer-wrapper {
+  background-color: #000; }
+
+.footer {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 25px 15px 30px 15px;
+  display: flex;
+  flex-direction: row; }
+
+.footer__list {
+  min-width: 70%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+
+ul[title]::before {
+  content: attr(title);
+  display: block;
+  font-size: 16px;
+  line-height: 130%;
+  margin-bottom: 35px;
+  color: #fff; }
+
+.footer__list__title li a {
+  max-width: 200px;
+  display: block;
+  list-style-type: none;
+  text-decoration: none;
+  color: #858fa4 !important;
+  font-weight: 500;
+  font-size: 16px;
+  margin: 5px 0; }
+
+.footer-contacts {
+  min-width: 30%;
+  justify-self: center;
+  display: flex;
+  flex-direction: column; }
+
+.footer-contacts-input {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-bottom: 42px; }
+
+.footer-contacts__subscribe {
+  display: block;
+  background: rgba(133, 143, 164, 0.15);
+  border: none;
+  border-radius: 5px;
+  padding: 14px 14px 14px 14px;
+  color: #fff; }
+  .footer-contacts__subscribe ::-webkit-input-placeholder {
+    color: #858fa4; }
+  .footer-contacts__subscribe ::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #858fa4; }
+  .footer-contacts__subscribe :-ms-input-placeholder {
+    color: #858fa4; }
+  .footer-contacts__subscribe :-moz-placeholder {
+    /* Firefox 18- */
+    color: #858fa4; }
+
+.footer-contacts__submit-btn {
+  background: rgba(133, 143, 164, 0.15);
+  border: none;
+  width: 43px;
+  height: 43px;
+  border-radius: 0 px 5px;
+  position: relative;
+  cursor: pointer; }
+
+.footer-contacts__submit-btn::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  cursor: pointer;
+  top: 50%;
+  left: 10px;
+  bottom: auto;
+  right: auto;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  background: url(../../../public/img/paper_plane.png) no-repeat; }
+
+.footer-contacts__phone-number {
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  color: #858fa4;
+  margin: 8px 0; }
+
+.footer-contacts__call-request {
+  align-self: flex-start;
+  padding-left: 0px;
+  margin-bottom: 23px;
+  font-size: 14px;
+  line-height: 140%;
+  color: #ffffff;
+  background: none;
+  border: none; }
+
+.footer-contacts__email {
+  display: block;
+  font-size: 16px;
+  line-height: 19px;
+  color: #858fa4; }
+
+.footer-contacts__rules {
+  display: block;
+  font-size: 14px;
+  line-height: 140%;
+  color: #4b7ee8; }
+
+.footer-contacts__rules:first-child {
+  margin-top: 17px; }
+
+.footer-social-media {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 25px 15px 30px 15px;
+  display: flex;
+  flex-direction: row;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-top: 1px solid rgba(133, 143, 164, 0.15); }
+
+.footer-social-media-wrapper {
+  display: flex;
+  flex-direction: column; }
+
+.footer-social-media__copyrights {
+  font-size: 14px;
+  line-height: 140%;
+  color: #858fa4; }
+
+.footer-social-media__icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; }
+
+.footer-social-media__icons > * {
+  display: block;
+  width: 24px;
+  height: 24px;
+  margin-left: 11px; }
+
+.footer-social-media__instagram {
+  background: url("../../../public/img/instagram.png") no-repeat; }
+
+.footer-social-media__facebook {
+  background: url("../../../public/img/facebook.png") no-repeat; }
+
+.footer-social-media__youtube {
+  background: url("../../../public/img/youtube.png") no-repeat; }
+
+.pay-methods {
+  min-width: 32%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-self: center; }
+
+.pay-methods > * {
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin-left: 30px; }
+
+.pay-methods__visa {
+  background: url("../../../public/img/visa.png") no-repeat; }
+
+.pay-methods__mastercard {
+  background: url("../../../public/img/mastercard.png") no-repeat; }
+
+.pay-methods__webmoney {
+  background: url("../../../public/img/webmoney.png") no-repeat;
+  height: 32px; }
+
+.pay-methods__paypal {
+  align-self: center;
+  background: url("../../../public/img/paypal_logo.png") no-repeat;
+  width: 55px;
+  height: 20px; }

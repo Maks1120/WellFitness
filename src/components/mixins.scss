@@ -1,0 +1,20 @@
+@mixin header-footer__background{
+    background-color: #000;
+}
+
+@mixin header-footer__spacing{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 25px 15px 30px 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+@mixin display-block {
+    display: block;
+}
+
+@mixin clear-btn-style{
+    background: none;
+    border: none;
+}
