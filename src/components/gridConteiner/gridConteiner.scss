@@ -20,3 +20,13 @@
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+.gridConteinerBrandBox {
+    margin-bottom: 30px;
+    width: 1410px;
+    height: 470px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}

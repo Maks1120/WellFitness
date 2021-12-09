@@ -1,0 +1,23 @@
+<div class="gridConteinerBrandBox">
+    <% [
+    'gridBrandBox-elemFirst brandBox-imgFirst brandBox_firstLine',
+    'gridBrandBox-elemSecond brandBox-imgSecond brandBox_firstLine',
+    'gridBrandBox-elemThird brandBox-imgThird brandBox_firstLine',
+    'gridBrandBox-elemFourth brandBox-imgFourth brandBox_firstLine',
+    'gridBrandBox-elemFifth brandBox-imgFifth brandBox_firstLine',
+    'gridBrandBox-elemSixth brandBox-imgSixth',
+    'gridBrandBox-elemSeventh brandBox-imgSeventh',
+    'gridBrandBox-elemEighth brandBox-imgEighth',
+    'gridBrandBox-elemNinth brandBox-imgNinth',
+    'gridBrandBox-elemTenth brandBox-imgTenth',
+    'gridBrandBox-elemEleventh brandBox-imgEleventh',
+    'gridBrandBox-elemTwelfth brandBox-imgTwelfth',
+    'gridBrandBox-elemThirteenth brandBox-imgThirteenth',
+    'gridBrandBox-elemFourteenth brandBox-imgFourteenth',
+    'gridBrandBox-elemFifteenth brandBox-imgFifteenth',
+    ].forEach((className,index) => {%>
+        <%- include("src/components/brandBox/brandBox.ejs", {
+            className:className
+        }) %>
+    <% });%> 
+</div>

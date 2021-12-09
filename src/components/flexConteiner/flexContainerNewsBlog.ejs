@@ -1,0 +1,18 @@
+<div class="flexConteiner flexConteinerNewsBlog">
+    <% [
+    {title:'В продажу поступили<br>тренажеры Nautilus',
+    className:'newsItem-imgFirst'
+    },{title:'В продажу поступили<br>тренажеры Nautilus',
+    className:'newsItem-imgSecond'
+    },{title:'В продажу поступили<br>тренажеры Nautilus',
+    className:'newsItem-imgThird'
+    },{title:'В продажу поступили<br>тренажеры Nautilus',
+    className:'newsItem-imgFoutr'
+    },
+    ].forEach((item,index) => {%>
+        <%- include("src/components/newsItem/newsItem.ejs", {
+            title:item.title,
+            className:item.className
+        }) %>
+    <% });%> 
+</div>

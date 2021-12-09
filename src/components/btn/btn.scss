@@ -1,4 +1,4 @@
-.btnAllItems {
+.btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -9,7 +9,7 @@
     box-sizing: border-box;
     border-radius: 4px;
 }
-.btnAllItems__p {
+.btn__p {
     font-family: Inter;
     font-style: normal;
     font-weight: bold;
@@ -19,4 +19,7 @@
     height: 17px;
     color: #F53B49;
     text-align: center; 
+}
+.btnSmall {
+    width: 125px;
 }
