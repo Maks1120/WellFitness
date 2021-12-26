@@ -19,7 +19,7 @@ p {
   margin: 30px 0px; }
 
 .listOfProductsItem {
-  width: 1410px;
+  width: 960px;
   margin-right: auto;
   margin-left: auto; }
 
@@ -117,110 +117,102 @@ p {
   grid-row-end: -2;
   grid-column-start: 4; }
 
-.gridConteinerHomeFit {
-  margin-bottom: 30px;
-  width: 1410px;
-  height: 740px;
+.gridConteiner {
+  margin-bottom: 20px;
+  width: 960px;
   margin-left: auto;
   margin-right: auto;
   display: grid;
-  grid-gap: 30px;
+  grid-gap: 20px; }
+
+.gridConteinerHomeFit {
+  height: 500px;
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr; }
 
 .gridConteinerFitnesClub {
-  margin-bottom: 30px;
-  width: 1410px;
-  height: 590px;
-  margin-left: auto;
-  margin-right: auto;
-  display: grid;
-  grid-gap: 30px;
+  height: 400px;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr; }
 
 .gridConteinerBrandBox {
-  margin-bottom: 30px;
-  width: 1410px;
-  height: 470px;
-  margin-left: auto;
-  margin-right: auto;
-  display: grid;
+  padding-bottom: 30px;
+  height: 392px;
   grid-template-rows: 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr; }
+  grid-template-columns: 1fr 1fr 1fr 1fr; }
 
 .productItem-imgHomeFitFirst {
-  background-image: url(/src/image/forHomeFit/RunRoad.png);
+  background-image: url(/src/image/forHomeFit/RunRoadFor960.png);
   opacity: 90%;
   background-color: #0D1012; }
 
 .productItem-imgHomeFitSecond {
-  background-image: url(/src/image/forHomeFit/ElipsSimulators.png); }
+  background-image: url(/src/image/forHomeFit/ElipsSimulatorsFor960.png); }
 
 .productItem-imgHomeFitThird {
-  background-image: url(/src/image/forHomeFit/Cuclingsimuliators.png); }
+  background-image: url(/src/image/forHomeFit/CuclingsimuliatorsFor960.png); }
 
 .productItem-imgHomeFitFourth {
-  background-image: url(/src/image/forHomeFit/poersimmulitors.png); }
+  background-image: url(/src/image/forHomeFit/poersimmulitorsFor960.png); }
 
 .productItem-imgHomeFitFifth {
-  background-image: url(/src/image/forHomeFit/skySimmuliators.png); }
+  background-image: url(/src/image/forHomeFit/skySimmuliatorsFor960.png); }
 
 .productItem-imgHomeFitSixth {
-  background-image: url(/src/image/forHomeFit/greblia.png); }
+  background-image: url(/src/image/forHomeFit/grebliaFor960.png); }
 
 .productItem-imgHomeFitSeventh {
-  background-image: url(/src/image/forHomeFit/Batut.png); }
+  background-image: url(/src/image/forHomeFit/BatutFor960.png); }
 
 .productItem-imgHomeFitEighth {
-  background-image: url(/src/image/forHomeFit/GameTAble.png); }
+  background-image: url(/src/image/forHomeFit/GameTAbleFor960.png); }
 
 .productItem-imgHomeFitNinth {
-  background-image: url(/src/image/forHomeFit/kreslo.png); }
+  background-image: url(/src/image/forHomeFit/kresloFor960.png); }
 
 .productItem-imgHomeFitTenth {
-  background-image: url(/src/image/forHomeFit/akses.png); }
+  background-image: url(/src/image/forHomeFit/aksesFor960.png); }
 
 .productItem-imgFitnesClubFirst {
-  background-image: url(/src/image/forFitnesClub/professionalCardio.png);
+  background-image: url(/src/image/forFitnesClub/professionalCardioFor960.png);
   opacity: 90%;
   background-color: #0D1012; }
 
 .productItem-imgFitnesClubSecond {
-  background-image: url(/src/image/forFitnesClub/gruzoblochniitrenazerii.png); }
+  background-image: url(/src/image/forFitnesClub/gruzoblochniitrenazeriiFor960.png); }
 
 .productItem-imgFitnesClubThird {
-  background-image: url(/src/image/forFitnesClub/svobodniivesa.png); }
+  background-image: url(/src/image/forFitnesClub/svobodniivesaFor960.png); }
 
 .productItem-imgFitnesClubFourth {
-  background-image: url(/src/image/forFitnesClub/functionaltraining.png); }
+  background-image: url(/src/image/forFitnesClub/functionaltrainingFor960.png); }
 
 .productItem-imgFitnesClubFifth {
-  background-image: url(/src/image/forFitnesClub/wellness.png); }
+  background-image: url(/src/image/forFitnesClub/wellnessFor960.png); }
 
 .productItem-imgFitnesClubSixth {
-  background-image: url(/src/image/forFitnesClub/rehabilitation.png); }
+  background-image: url(/src/image/forFitnesClub/rehabilitationFor960.png); }
 
 .productItem-imgFitnesClubSeventh {
-  background-image: url(/src/image/forFitnesClub/dumbbells.png); }
+  background-image: url(/src/image/forFitnesClub/dumbbellsFor960.png); }
 
 .productItem {
   margin: 0 auto;
   background-position: right;
   background-repeat: no-repeat;
-  width: 330px;
-  height: 280px;
-  background-color: #F0F1F7;
+  width: 220px;
+  height: 190px;
+  background-color: #ffffff;
   border-radius: 6px; }
 
 .productItem-small {
-  height: 200px; }
+  height: 135px; }
 
 .productItem-tall {
-  height: 430px; }
+  height: 290px; }
 
 .productItem-wide {
-  width: 690px; }
+  width: 460px; }
 
 .productItem__p {
   font-family: 'Inter', sans-serif;
@@ -239,53 +231,44 @@ p {
   color: #FFFFFF; }
 
 .brandBox-imgFirst {
-  background-image: url(/src/image/forPopularBrands/bowflexx.png); }
+  background-image: url(/src/image/forPopularBrands/bowflexxFor960.png); }
 
 .brandBox-imgSecond {
-  background-image: url(/src/image/forPopularBrands/boxingbar.png); }
+  background-image: url(/src/image/forPopularBrands/boxingbarFor960.png); }
 
 .brandBox-imgThird {
-  background-image: url(/src/image/forPopularBrands/cardiopower.png); }
+  background-image: url(/src/image/forPopularBrands/cardiopowerFor960.png); }
 
 .brandBox-imgFourth {
-  background-image: url(/src/image/forPopularBrands/cardiopowerpro.png); }
+  background-image: url(/src/image/forPopularBrands/cardiopowerproFor960.png); }
 
 .brandBox-imgFifth {
-  background-image: url(/src/image/forPopularBrands/doublefish.png); }
+  background-image: url(/src/image/forPopularBrands/eclipseFor960.png); }
 
 .brandBox-imgSixth {
-  background-image: url(/src/image/forPopularBrands/eclipse.png); }
+  background-image: url(/src/image/forPopularBrands/gym80For960.png); }
 
 .brandBox-imgSeventh {
-  background-image: url(/src/image/forPopularBrands/gym80.png); }
+  background-image: url(/src/image/forPopularBrands/hyfitFor960.png); }
 
 .brandBox-imgEighth {
-  background-image: url(/src/image/forPopularBrands/hyfit.png); }
+  background-image: url(/src/image/forPopularBrands/kernelFor960.png); }
 
 .brandBox-imgNinth {
-  background-image: url(/src/image/forPopularBrands/kernel.png); }
+  background-image: url(/src/image/forPopularBrands/nautilusFor960.png); }
 
 .brandBox-imgTenth {
-  background-image: url(/src/image/forPopularBrands/meridien.png); }
+  background-image: url(/src/image/forPopularBrands/octanaFitnessFor960.png); }
 
 .brandBox-imgEleventh {
-  background-image: url(/src/image/forPopularBrands/nautilus.png); }
+  background-image: url(/src/image/forPopularBrands/optimaFor960.png); }
 
 .brandBox-imgTwelfth {
-  background-image: url(/src/image/forPopularBrands/octanaFitness.png); }
-
-.brandBox-imgThirteenth {
-  background-image: url(/src/image/forPopularBrands/optima.png); }
-
-.brandBox-imgFourteenth {
-  background-image: url(/src/image/forPopularBrands/original.png); }
-
-.brandBox-imgFifteenth {
-  background-image: url(/src/image/forPopularBrands/proski.png); }
+  background-image: url(/src/image/forPopularBrands/originalFor960.png); }
 
 .brandBox {
-  width: 282px;
-  height: 150px;
+  width: 235px;
+  height: 125px;
   margin: 0 auto;
   background-position: center;
   background-repeat: no-repeat;
@@ -294,7 +277,7 @@ p {
   border: 1px solid rgba(133, 143, 164, 0.2); }
 
 .brandBox_firstLine {
-  height: 170px; }
+  height: 142px; }
 
 .flexConteiner {
   display: flex; }
@@ -304,7 +287,7 @@ p {
   margin-bottom: 30px; }
 
 .flexConteinerNewsBlog {
-  width: 1695px;
+  width: 100%;
   height: 440px; }
 
 .gridBrandBox-elemFirst {
@@ -320,37 +303,28 @@ p {
   grid-area: 1 / 4 / 2 / 5; }
 
 .gridBrandBox-elemFifth {
-  grid-area: 1 / 5 / 2 / 6; }
-
-.gridBrandBox-elemSixth {
   grid-area: 2 / 1 / 3 / 2; }
 
-.gridBrandBox-elemSeventh {
+.gridBrandBox-elemSixth {
   grid-area: 2 / 2 / 3 / 3; }
 
-.gridBrandBox-elemEighth {
+.gridBrandBox-elemSeventh {
   grid-area: 2 / 3 / 3 / 4; }
 
-.gridBrandBox-elemNinth {
+.gridBrandBox-elemEighth {
   grid-area: 2 / 4 / 3 / 5; }
 
-.gridBrandBox-elemTenth {
-  grid-area: 2 / 5 / 3 / 6; }
-
-.gridBrandBox-elemEleventh {
+.gridBrandBox-elemNinth {
   grid-area: 3 / 1 / 4 / 2; }
 
-.gridBrandBox-elemTwelfth {
+.gridBrandBox-elemTenth {
   grid-area: 3 / 2 / 4 / 3; }
 
-.gridBrandBox-elemThirteenth {
+.gridBrandBox-elemEleventh {
   grid-area: 3 / 3 / 4 / 4; }
 
-.gridBrandBox-elemFourteenth {
+.gridBrandBox-elemTwelfth {
   grid-area: 3 / 4 / 4 / 5; }
-
-.gridBrandBox-elemFifteenth {
-  grid-area: 3 / 5 / 4 / 6; }
 
 .link {
   display: box;
@@ -376,49 +350,37 @@ p {
   grid-area: 1 / 4 / 2 / 5; }
 
 .gridBrandBox-elemFifth {
-  grid-area: 1 / 5 / 2 / 6; }
-
-.gridBrandBox-elemSixth {
   grid-area: 2 / 1 / 3 / 2; }
 
-.gridBrandBox-elemSeventh {
+.gridBrandBox-elemSixth {
   grid-area: 2 / 2 / 3 / 3; }
 
-.gridBrandBox-elemEighth {
+.gridBrandBox-elemSeventh {
   grid-area: 2 / 3 / 3 / 4; }
 
-.gridBrandBox-elemNinth {
+.gridBrandBox-elemEighth {
   grid-area: 2 / 4 / 3 / 5; }
 
-.gridBrandBox-elemTenth {
-  grid-area: 2 / 5 / 3 / 6; }
-
-.gridBrandBox-elemEleventh {
+.gridBrandBox-elemNinth {
   grid-area: 3 / 1 / 4 / 2; }
 
-.gridBrandBox-elemTwelfth {
+.gridBrandBox-elemTenth {
   grid-area: 3 / 2 / 4 / 3; }
 
-.gridBrandBox-elemThirteenth {
+.gridBrandBox-elemEleventh {
   grid-area: 3 / 3 / 4 / 4; }
 
-.gridBrandBox-elemFourteenth {
+.gridBrandBox-elemTwelfth {
   grid-area: 3 / 4 / 4 / 5; }
 
-.gridBrandBox-elemFifteenth {
-  grid-area: 3 / 5 / 4 / 6; }
-
 .newsItem-imgFirst {
-  background-image: url(/src/image/forNewsBlog/beg.png); }
+  background-image: url(/src/image/forNewsBlog/begFor960.png); }
 
 .newsItem-imgSecond {
-  background-image: url(/src/image/forNewsBlog/podtagivania.png); }
+  background-image: url(/src/image/forNewsBlog/podtagivaniaFor960.png); }
 
 .newsItem-imgThird {
-  background-image: url(/src/image/forNewsBlog/dorozka.png); }
-
-.newsItem-imgFoutr {
-  background-image: url(/src/image/forNewsBlog/tagabloca.png); }
+  background-image: url(/src/image/forNewsBlog/dorozkaFor960.png); }
 
 .newsItem {
   display: flex;

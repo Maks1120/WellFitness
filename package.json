@@ -4,26 +4,28 @@
     "description": "",
     "main": "app.js",
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "build-css": "node-sass src/styles.scss public/css/styles.css",
-      "build-html": "ejs src/index.ejs -o public/index.html",
-      "build": "npm run build-css && npm run build-html"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build-css": "node-sass src/styles.scss public/css/styles.css",
+        "build-html": "ejs src/index.ejs -o public/index.html",
+        "build": "npm run build-css && npm run build-html",
+        "watch": "watch \"npm run build\" ./src"
     },
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/Maks1120/WellFitness"
+        "type": "git",
+        "url": "git+https://github.com/Maks1120/WellFitness"
     },
     "author": "",
     "license": "ISC",
     "bugs": {
-      "url": "https://github.com/Maks1120/WellFitness/issues"
+        "url": "https://github.com/Maks1120/WellFitness/issues"
     },
     "homepage": "https://github.com/Maks1120/WellFitness/blob/main/index.html",
     "dependencies": {
-      "ejs": "^3.1.6",
-      "node-sass": "^6.0.1"
+        "ejs": "^3.1.6",
+        "node-sass": "^6.0.1",
+        "watch": "^1.0.2"
     },
     "devDependencies": {
-      "sass": "^1.43.2"
+        "sass": "^1.43.2"
     }
-  }
+}

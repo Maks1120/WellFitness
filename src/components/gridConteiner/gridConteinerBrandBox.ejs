@@ -1,4 +1,4 @@
-<div class="gridConteinerBrandBox">
+<div class="gridConteiner gridConteinerBrandBox">
     <% [
     'gridBrandBox-elemFirst brandBox-imgFirst brandBox_firstLine',
     'gridBrandBox-elemSecond brandBox-imgSecond brandBox_firstLine',
@@ -12,9 +12,6 @@
     'gridBrandBox-elemTenth brandBox-imgTenth',
     'gridBrandBox-elemEleventh brandBox-imgEleventh',
     'gridBrandBox-elemTwelfth brandBox-imgTwelfth',
-    'gridBrandBox-elemThirteenth brandBox-imgThirteenth',
-    'gridBrandBox-elemFourteenth brandBox-imgFourteenth',
-    'gridBrandBox-elemFifteenth brandBox-imgFifteenth',
     ].forEach((className,index) => {%>
         <%- include("src/components/brandBox/brandBox.ejs", {
             className:className
