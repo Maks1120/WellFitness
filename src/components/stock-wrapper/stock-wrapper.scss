@@ -1,0 +1,39 @@
+
+ 
+ /*.simulators-wrapper{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 39px 15px 0 15px;
+ }*/
+ 
+ .stock-wrapper{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 39px 15px 0 15px;
+ }
+ 
+ .stock__header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+ }
+ 
+ .stock__header .heading{
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 110%;
+    color: #1A1A25;
+    margin-right: 30px;
+ 
+ }
+ 
+ .stock__header .recommendations{
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 120%;
+    color: #828282;
+    text-decoration: none;
+    margin-right: 30px;
+ }
+ 
+ 

@@ -7,16 +7,23 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
+    <%- include("src/components/header/header.ejs")%>
+    <%- include("src/components/navigation/navigation.ejs")%>
+    <%- include("src/components/categories/categories.ejs")%>
+    
     <%- include("src/components/wraperFor/listOfProductsItemHomeFit.ejs", {
     title: 'Тренажеры для дома'
     }) %>
     <%- include("src/components/wraperFor/listOfProductsItemFitnesClub.ejs", {
     title: 'Для фитнес клубов'
     }) %>
+    
     <%- include("src/components/wraperFor/listOfPopularBrand.ejs", {
     title: 'Популярные бренды'
     }) %>
+    <%- include("src/components/index-main/index-main.ejs")%>
     <%- include("src/components/wraperFor/wraperForNewsBlog.ejs", {
         title: 'Новости'
     }) %>
+    <%- include("src/components/footer/footer.ejs")%>
 </html>

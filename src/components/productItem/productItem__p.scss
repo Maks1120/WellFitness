@@ -2,16 +2,13 @@
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 800;
-    font-size: 20px;
-    line-height: 120%;
+    font-size: 13px;
+    line-height: 110%;
     color: #1A1A25;
-    
-    flex: none;
-    order: 0;
-    flex-grow: 1;
     margin: 0px 10px;
-    padding: 30px 30px; 
+    padding: 20px 30px; 
+    
+    .productItem__p-whiteText {
+        color: #FFFFFF;
+    }
 }  
-.productItem__p-whiteText {
-    color: #FFFFFF;
-}
