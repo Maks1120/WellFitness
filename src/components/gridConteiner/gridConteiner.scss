@@ -3,22 +3,22 @@
     width: 960px;
     margin-left: auto;
     margin-right: auto;
-    display: grid;
-    grid-gap: 20px;
+    display: grid;    
 }
 
 .gridConteinerHomeFit {
     height: 500px;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
 }
 .gridConteinerFitnesClub {
     height: 400px;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
 }
 .gridConteinerBrandBox {
-    padding-bottom: 30px;
     height: 392px;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr;

@@ -1,0 +1,85 @@
+.footer-social-media{
+    @include header-footer__spacing;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    border-top: 1px solid rgba(133, 143, 164, 0.15);;
+}
+
+.footer-social-media-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.footer-social-media__copyrights {
+    font-size: 14px;
+    line-height: 140%;
+    color: #858fa4;
+}
+
+.footer-social-media__icons{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+     
+}
+
+.footer-social-media__icons >*{
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin-left: 11px;
+}
+
+.footer-social-media__instagram{
+    background: url("../../../public/img/instagram.png") no-repeat;
+ }
+
+ .footer-social-media__facebook{
+
+    background: url("../../../public/img/facebook.png") no-repeat;
+ }
+
+ .footer-social-media__youtube{
+    background: url("../../../public/img/youtube.png") no-repeat;
+ }
+
+ .pay-methods{
+    min-width: 32%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-self: center;
+ }
+
+ .pay-methods > *{
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin-left:30px;
+ }
+
+ .pay-methods__visa{
+    background: url("../../../public/img/visa.png") no-repeat;
+    
+ }
+
+ .pay-methods__mastercard{
+    background: url("../../../public/img/mastercard.png") no-repeat;
+ }
+
+ .pay-methods__webmoney{
+    background: url("../../../public/img/webmoney.png") no-repeat;
+    height: 32px;
+ }
+
+ .pay-methods__paypal{
+     align-self: center;
+    background: url("../../../public/img/paypal_logo.png") no-repeat;
+    width: 55px;
+    height: 20px;
+ }

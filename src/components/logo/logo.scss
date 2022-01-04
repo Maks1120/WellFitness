@@ -1,0 +1,17 @@
+.logo-wrapper{
+   min-width: 382px;
+
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.logo__item{
+   display: block;
+   width: 280px;
+   height: 29px;
+   background: url("../../../public/img/logo.svg") no-repeat;
+}
+
+
