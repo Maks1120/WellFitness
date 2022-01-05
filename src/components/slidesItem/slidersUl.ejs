@@ -1,0 +1,20 @@
+<ul class="slider-container__list">
+    <% [
+    {title:'Бег с нулевой <br> ударной <br> нагрузкой <br> ',
+    titleH3:'zerro runner',
+    titleSpan:'на суставы',
+    className:''
+    },{title:'для <br> подготовки к<br>',
+    titleH3:'беговая дорожка',
+    titleSpan:'марафону',
+    className:''
+    },
+    ].forEach((item,index) => {%>
+        <%- include("src/components/slidesItem/sliderItem.ejs", {
+            title:item.title,
+            className:item.className,
+            titleH3:item.titleH3,
+            titleSpan:item.titleSpan
+        }) %>
+    <% });%> 
+</ul>
