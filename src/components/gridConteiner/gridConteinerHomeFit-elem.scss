@@ -1,0 +1,48 @@
+.gridConteinerHomeFit-elemFirst {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: -1;
+}
+.gridConteinerHomeFit-elemSecond {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: -1;
+}
+.gridConteinerHomeFit-elemThird {
+    grid-column-start: 3;
+}
+.gridConteinerHomeFit-elemFourth {
+    grid-column-start: 3;
+}
+.gridConteinerHomeFit-elemFifth {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 4;
+}
+.gridConteinerHomeFit-elemSixth {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 4;
+}
+.gridConteinerHomeFit-elemSeventh {
+    grid-column-start: 1;
+    grid-row-start: -1;
+    grid-row-end: -2;
+}
+.gridConteinerHomeFit-elemEighth {
+    grid-row-start: -1;
+    grid-row-end: -2;
+    grid-column-start: 2;
+}
+.gridConteinerHomeFit-elemNinth {
+    grid-row-start: -1;
+    grid-row-end: -2;
+    grid-column-start: 3;
+}
+.gridConteinerHomeFit-elemTenth {
+    grid-row-start: -1;
+    grid-row-end: -2;
+    grid-column-start: 4;
+}

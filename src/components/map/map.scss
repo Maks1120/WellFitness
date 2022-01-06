@@ -1,0 +1,45 @@
+.map {
+    @include header-footer__spacing;
+}
+
+.map-info {
+    max-width: 45%;
+}
+
+.map-background {
+    width: 55%;
+    height: 620px;
+    background: url("/image/whithSonya/map.png") no-repeat;
+    background-size: contain;
+    background-position-x: right;
+}
+
+.map-info__title {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 110%;
+    color: #1a1a25;
+}
+
+.map-info__paragraph-small {
+    font-size: 34px;
+    color: #384255;
+}
+
+.map-info__paragraph-big {
+    font-size: 18px;
+    line-height: 150%;
+    color: #384255;
+}
+
+.map-info__btn {
+    background: none;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    border: 1px solid #f53b49;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #f53b49;
+}

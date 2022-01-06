@@ -1,3 +1,34 @@
-<link rel="stylesheet" href="/public/css/styles.css">
-<%- include("src/components/slidesItem/slider.ejs") %>
-<script src="/src/slider.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+    <body>
+        <%- include("src/components/header/header.ejs")%>
+        <%- include("src/components/navigation/navigation.ejs")%>
+        <%- include("src/components/categories/categories.ejs")%>
+
+        <%- include("src/components/slidesItem/slider.ejs") %>
+        
+        <%- include("src/components/wraperFor/listOfProductsItemHomeFit.ejs", {
+        title: 'Тренажеры для дома'
+        }) %>
+        <%- include("src/components/wraperFor/listOfProductsItemFitnesClub.ejs", {
+        title: 'Для фитнес клубов'
+        }) %>
+        
+        <%- include("src/components/wraperFor/listOfPopularBrand.ejs", {
+        title: 'Популярные бренды'
+        }) %>
+        <%- include("src/components/index-main/index-main.ejs")%>
+        <%- include("src/components/wraperFor/wraperForNewsBlog.ejs", {
+            title: 'Новости'
+        }) %>
+        <%- include("src/components/footer/footer.ejs")%>
+    <script src="/src/slider.js"></script>
+    </body>
+</html>

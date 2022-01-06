@@ -1,0 +1,30 @@
+<div class="gridConteiner gridConteinerHomeFit">
+    <% [
+    {title:'Беговые<br>дорожки',
+    className:'gridConteinerHomeFit-elemFirst productItem-tall productItem-imgHomeFitFirst productItem__p-whiteText'
+    },{title:'Эллиптические<br>тренажеры',
+    className:'gridConteinerHomeFit-elemSecond productItem-tall productItem-imgHomeFitSecond'
+    },{title:'Велотренажеры',
+    className:'gridConteinergridConteinerHomeFit-elemThird productItem-small productItem-imgHomeFitThird'
+    },{title:'Горнолыжные<br>тренажеры',
+    className:'gridConteinerHomeFit-elemFourth productItem-small productItem-imgHomeFitFourth'
+    },{title:'Силовые<br>тренажеры',
+    className:'gridConteinerHomeFit-elemFifth productItem-small productItem-imgHomeFitFifth'
+    },{title:'Гребные<br>тренажеры',
+    className:'gridConteinerHomeFit-elemSixth productItem-small productItem-imgHomeFitSixth'
+    },{title:'Батуты',
+    className:'gridConteinerHomeFit-elemSeventh productItem-imgHomeFitSeventh'
+    },{title:'Игровые<br>столы',
+    className:'gridConteinerHomeFit-elemEighth productItem-imgHomeFitEighth'
+    },{title:'Массажные<br>кресла',
+    className:'gridConteinerHomeFit-elemNinth productItem-imgHomeFitNinth'
+    },{title:'Фитнес<br>аксессуары',
+    className:'gridConteinerHomeFit-elemTenth productItem-imgHomeFitTenth'
+    },    
+    ].forEach((item,index) => {%>
+        <%- include("src/components/productItem/productItem.ejs", {
+            title:item.title,
+            className:item.className
+        }) %>
+    <% });%> 
+</div>

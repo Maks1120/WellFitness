@@ -1,0 +1,134 @@
+.footer-wrapper {
+    @include header-footer__background;
+}
+
+.footer {
+    @include header-footer__spacing;
+}
+
+.footer__list {
+    min-width: 70%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+ul[title]::before {
+    content: attr(title);
+    @include display-block;
+    font-size: 16px;
+    line-height: 130%;
+    margin-bottom: 35px;
+    color: #fff;
+}
+
+.footer__list__title li a {
+    max-width: 200px;
+    display: block;
+    list-style-type: none;
+    text-decoration: none;
+    color: #858fa4 !important;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.footer-contacts {
+    min-width: 30%;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-contacts-input {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-bottom: 42px;
+}
+
+.footer-contacts__subscribe {
+    display: block;
+    background: rgba(133, 143, 164, 0.15);
+    border: none;
+    border-radius: 5px;
+    padding: 14px 14px 14px 14px;
+    ::-webkit-input-placeholder {
+        color: #858fa4;
+    }
+    ::-moz-placeholder {
+        /* Firefox 19+ */
+        color: #858fa4;
+    }
+    :-ms-input-placeholder {
+        color: #858fa4;
+    }
+    :-moz-placeholder {
+        /* Firefox 18- */
+        color: #858fa4;
+    }
+    color: #fff;
+}
+
+.footer-contacts__submit-btn {    
+    background: rgba(133, 143, 164, 0.15);
+    border: none;
+    width: 43px;
+    height: 43px;
+    border-radius: 0 px 5px;
+    position: relative;
+    cursor: pointer;
+}
+
+.footer-contacts__submit-btn::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    cursor: pointer;
+    top: 50%;
+    left: 10px;
+    bottom: auto;
+    right: auto;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    background: url(../../../public/img/paper_plane.png) no-repeat;
+}
+
+
+.footer-contacts__phone-number {
+    @include display-block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #858fa4;
+    margin: 8px 0;
+}
+
+.footer-contacts__call-request {
+    align-self: flex-start;
+    padding-left: 0px;
+    margin-bottom: 23px;
+    font-size: 14px;
+    line-height: 140%;
+    color: #ffffff;
+    @include clear-btn-style;
+}
+
+.footer-contacts__email {
+    @include display-block;
+    font-size: 16px;
+    line-height: 19px;
+    color: #858fa4;
+}
+
+.footer-contacts__rules {
+    @include display-block;
+    font-size: 14px;
+    line-height: 140%;
+    color: #4b7ee8;
+}
+
+.footer-contacts__rules:first-child{
+    margin-top: 17px;
+}

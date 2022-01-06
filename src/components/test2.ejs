@@ -1,0 +1,20 @@
+<div>
+    <% [
+    {titleBanners:'Беговые дорожки',
+    nameBanners:'Приветы',
+    btnBanners:'Покасики',
+    },{titleBanners:'АААААА',
+    nameBanners:'ЬБЬЬЬЬ',
+    btnBanners:'АЗАХАЗА',
+    },{titleBanners:'Руки в ноги',
+    nameBanners:'ХАй',
+    btnBanners:'КАпец',
+    },
+    ].forEach((item,index) => {%>
+        <%- include("src/components/test.ejs", {
+            titleBanners:item.titleBanners,
+            nameBanners:item.nameBanners,
+            btnBanners:item.btnBanners
+        }) %>
+    <% });%> 
+</div>

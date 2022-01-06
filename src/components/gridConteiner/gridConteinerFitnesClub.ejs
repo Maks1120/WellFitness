@@ -1,0 +1,24 @@
+<div class="gridConteiner gridConteinerFitnesClub">
+    <% [
+    {title:'Профессиональные<br>кардиотренажеры',
+    className:'gridConteinerFitnesClub-elemFirst productItem-wide productItem-imgFitnesClubFirst'
+    },{title:'Грузоблочные<br>тренажеры',
+    className:'gridConteinerFitnesClub-elemSecond productItem-imgFitnesClubSecond'
+    },{title:'Тренажеры<br>на свободных<br>весах',
+    className:'gridConteinerFitnesClub-elemThird productItem-imgFitnesClubThird'
+    },{title:'Функцтональный<br>тренинг',
+    className:'gridConteinerFitnesClub-elemFourth productItem-imgFitnesClubFourth'
+    },{title:'Wellness,<br>СПА,Массаж',
+    className:'gridConteinerFitnesClub-elemFifth productItem-imgFitnesClubFifth'
+    },{title:'Спортивная медицина<br>и реабилитация',
+    className:'gridConteinerFitnesClub-elemSixth productItem-imgFitnesClubSixth'
+    },{title:'Свободные<br>веса',
+    className:'gridConteinerFitnesClub-elemSeventh productItem-imgFitnesClubSeventh'
+    },
+    ].forEach((item,index) => {%>
+        <%- include("src/components/productItem/productItem.ejs", {
+            title:item.title,
+            className:item.className
+        }) %>
+    <% });%> 
+</div>
